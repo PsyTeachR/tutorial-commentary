@@ -1,0 +1,105 @@
+---
+title: "So you want to write a tutorial?"
+author: "PsyTeachR Team"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+classoption:
+- twocolumn
+bibliography: biblio.bib
+csl: nature.csl
+---
+
+**Open research requires many new skills, which are increasingly being required by journals and funders. Most researchers rely on tutorials to keep up to date. How do you write a tutorial that is useful to both the field and your own career?**
+
+As researchers, we need to constantly update our skills. New skills are especially important for research transparency [@nosek2015promoting], such as coding for computational reproducibility of data processing and statistical analysis, or data simulation to improve the quality of pre-registration plans. A lack of resources for learning these new skills is one major barrier to open research [@zevcevic2020exploring], which researchers have started to address by creating open tutorials.
+
+Tutorials are a great way to [have a positive impact on the field](https://twitter.com/LisaDeBruine/status/1458052400456011787), but creating a useful tutorial takes time and experience. Researchers also bemoan the lack of recognition for this work by tenure and grant committees. So how do you write a great tutorial, make sure your colleagues get the maximum benefit from it, and you get appropriate credit for it? Below, we share our advice on some key questions to address, based on our experience creating open source tutorials for psychology research methods. 
+
+## Who is it for?
+
+Before you start writing a tutorial, it's important to think about your audience. What problems do they have that the skills in your tutorial will solve?
+
+Educational theories emphasise the role of prior knowledge in learning; it's a key predictor of success in MOOCs [@kennedy2015predicting]. Consider what skills learners will require to understand your tutorial. Do they need some competence at a particular programming language? A working knowledge of mixed effects models? State prerequisites at the start to allow learners to decide if the tutorial is for them.
+
+Material is easier to learn when it's directly related to your experience, so consider what examples will resonate with your intended audience. While it's sometimes easier to discuss a hypothetical study of the effect of factor A on outcome B, concrete example-based learning is a more beneficial approach [@gog2019learning]. Work through a realistic example or provide exercises for the learners [@renkl2010learning]. For instance, Richard McElreath's [tutorials on Bayesian inference](https://github.com/rmcelreath/stat_rethinking_2022) use examples from ecology and anthropology to allow learners to practice making realistic inference. The [Open Stats Lab](https://sites.google.com/view/openstatslab/) uses open datasets from papers published in *Psychological Science* to support lessons on introductory statistical concepts. 
+
+## How do I make it useful?
+
+Adding interactive elements such as [self-checking quizzes](https://psyteachr.github.io/webexercises/) or [web apps for demonstrations](https://rpsychologist.com/viz) can be helpful. Video tutorials are an engaging way to talk learners through the material. For example, Erin Buchanan's [Statistics of DOOM](https://www.youtube.com/c/StatisticsofDOOM) YouTube channel, with more than 18K subscribers, contains video walk-throughs of statistical techniques that have earned hundreds of thousands of views. Videos allow users to fast forward and pause, skip parts or play it faster and slower as needed. This element of choice becomes important when we take into consideration the time constraints of tutorial users.
+
+Considering some multimedia principles can allow users to understand the material without being overwhelmed by it [@mayer1998cognitive]. For example, the multiple representation principle suggests adding illustrations and pictures to verbal explanations because it engages different representations of the same idea – making it easier to understand. The coherence principle is another useful principle to know: it's easier to understand concepts explained in fewer words. 
+
+Interactivity is only useful when the learner has time and most of us perceive ourselves to be time-poor when it comes to learning new skills. While in a teaching setting we can demand participation in active learning and introduce desirable difficulty [@bjork2011making] to help our students learn better. It is also well-documented that learners misperceive that they learn less when engaged in active learning [@deslauriers2019measuring]. So, when making tutorials for voluntary personal skills development, introduce optional interactivity by including exercises to practice the skills, or work-along examples while having core content accessible for quick understanding and review. Also be clear about the time and resource commitment. For instance, retraining to use R for statistics requires a considerable time investment – [in our own experience](https://psyteachr.github.io/), about three months of weekly classes or about three full days of working through materials to gain introductory skills. 
+
+
+## How do I make it accessible?
+
+Open resources, including tutorials, should be FAIR: findable, accessible, interoperable and reproducible [@wilkinson2016fair].  
+
+While methods journals will publish tutorial-style articles, this process can be slow and the static article format isn't always pedagogically ideal. Luckily, most journals will accept preprints or article versions of interactive online tutorials, so we advise first self-publishing your tutorial. This can also give you the opportunity to get feedback from learners and refine your tutorial. For example, Nordmann and colleagues [@nordmann2022] included a link to a feedback form on their first preprint of [Data visualisation using R, for researchers who don't use R](https://psyarxiv.com/4huvw). 
+
+Make your tutorial findable by archiving a copy on a reliable platform. Code-based tutorials are often hosted on github, where you can archive multiple versions of code and other materials, including websites. For example, all of our [psyTeachR](https://psyteachr.github.io/) materials are hosted on GitHub. The [Open Science Framework](https://osf.io/) also offers free archiving of materials and preprints, as well as an optional DOI. You can also get a DOI and version archiving by uploading your materials to [Zenodo](https://zenodo.org/). 
+
+You can submit the tutorial to a curation list like the [Open Scholarship Knowledge Base](https://www.oercommons.org/hubs/OSKB) or [FORRT](https://forrt.org/). You can also start a curation list for your own subdiscipline or methodological expertise, following great examples like [OpenLists](https://github.com/openlists/Overview) or [Hitchhiker's Guide to the Brain](https://learn-neuroimaging.github.io/hitchhackers_guide_brain/). Once you've created a few tutorials, you might want to organise them into a website or online book (e.g., Danielle Navarro's popular [Learning Statistics with R](https://learningstatisticswithr-bookdown.netlify.com/)). For a well-developed series of tutorials, partnering with an online course company can give your tutorials a huge reach. For example, Daniel Lakens' Coursera course [Improving Your Statistical Inferences](https://www.coursera.org/learn/statistical-inferences/) has enrolled nearly 60K students.
+
+Make your tutorial accessible by giving it an [open source license](https://choosealicense.com/). For example, the psyTeachR book series written by our group are all published under a Creative Commons [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, which allows others to copy, redistribute, remix, and transform, as long as the original source is cited and derivatives use the same license. Because of this, our books have been translated into [French](https://corelab.blog/354/) and [Chinese](https://rstat-project.github.io/). You should also write the tutorial in an open format, such as html. PDFs may look pretty, but they are difficult to adapt or use translation tools on, and copying code or large chunks of text is often impossible.
+
+Interoperable tutorials follow a common structure, facilitating the transfer of learning from one tutorial to another, or leading learners on a step-by-step path. For example, the psyTeachR group developed an [open-source bookdown template](https://psyteachr.github.io/template/) that all the books follow to give them a coherent structure and all link to a [common glossary](https://psyteachr.github.io/glossary/) to ensure jargon is being defined in the same way. 
+
+Reproducible tutorials include all the materials needed to recreate the examples. If your tutorial includes code or requires a specific dataset, make sure to include it in the archive.
+
+## How do I get credit for it?
+
+Now that you've created a tutorial and archived it somewhere accessible for your audience, how do you get credit for it? Providing useful learning materials is a great way to gain visibility and reputation in your field, but it can be challenging to evidence their impact.
+
+The first step is making sure it's easy for people to find and use a standard citation for the tutorial. Get a DOI through one of the services described above and put the full citation somewhere prominent on the tutorial. Most preprint services allow you to register the DOI of a published version in the future so that citations can be amalgamated.
+
+While tutorials for advanced statistical methods can be highly cited, especially when they are published in methods journals, tutorials that explain the fundamentals of a technique or cover non-technical subjects are seldom cited, despite arguably having a larger impact on research and teaching. This can also be a problem with non-standard formats such as webpages, videos, and interactive apps, despite their potential for better learning. Web analytics can help you keep track of and evidence engagement with your tutorials. Materials hosted on a platform like YouTube or a preprint server will automatically track engagement. If you advertise materials with a link to the DOI, metrics platforms can track their use in publications and social media (e.g., one of our in-press tutorials @nordmann2022 already has an [Altmetric score of 284](https://www.altmetric.com/details/107978078)). You can access detailed Google analytics by adding a few lines of javascript to any webpage.
+
+## How can tutorial users help?
+
+The advice above is meant to help aspiring tutorial writers to create the best materials they can, but what can the rest of us do to help? Researchers can make sure to cite any tutorials that have influenced their research, even if the materials are not journal articles or the topics are more general than advanced methods. Journals can help by explicitly encouraging the citation of all relevant materials and eliminating citation limits for methods. Methods journals can also create more innovative article formats so that tutorial writers don't have to choose between the pedagogical and accessibility advantages of interactive online formats versus the prestige and reach of journal articles. Most importantly, hiring and tenure committees, as well as funders, should recognise the expertise, effort, and altruism involved in producing high-quality tutorials and recognise that they may not have the traditional evidence of citations in journal articles. A good tutorial can take as long as a research paper or book to write, reflect decades of experience, and have an enormous positive impact on the field. 
+
+## References
+
+<div id="refs"></div>
+
+## Author Credit
+
+* Wan, Freda: Conceptualization, Data curation, Writing - original draft
+* Toivo, Wilhelmiina ([0000-0002-5688-9537](https://orcid.org/0000-0002-5688-9537)): Conceptualization
+* Stack, Niamh: Conceptualization
+* Paterson, Helena ([0000-0001-7715-5973](https://orcid.org/0000-0001-7715-5973)): Conceptualization, Writing - original draft
+* Nordmann, Emily ([0000-0002-0806-1081](https://orcid.org/0000-0002-0806-1081): Conceptualization
+* McAleer, Phil ([0000-0002-4523-2097](https://orcid.org/0000-0002-4523-2097)): Conceptualization, Data curation, Writing - original draft
+* Mavromati, Kalliopi: Conceptualization, Writing - original draft
+* Lai, Rebecca ([0000-0001-7055-2036](https://orcid.org/0000-0001-7055-2036)): Conceptualization, Writing - original draft
+* Kuepper-Tetzel, Carolina ([0000-0003-0830-7915](https://orcid.org/0000-0003-0830-7915)): Conceptualization, Writing - original draft
+* DeBruine, Lisa ([0000-0002-7523-5539](https://orcid.org/0000-0002-7523-5539)): Conceptualization, Writing - original draft, Writing - review & editing
+* Cleland Wood, Heather ([0000-0003-2295-254X](https://orcid.org/0000-0003-2295-254X)): Conceptualization
+* Bartlett, James ([0000-0002-4191-5245](https://orcid.org/0000-0002-4191-5245)): Conceptualization, Data curation, Writing - original draft
+* Barr, Dale J ([0000-0002-1121-4608](https://orcid.org/0000-0002-1121-4608)): Conceptualization
+
+
+```{comment}
+
+Conceptualization: Ideas; formulation or evolution of overarching research goals and aims.
+Data curation: Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.
+Formal analysis: Application of statistical, mathematical, computational, or other formal techniques to analyse or synthesize study data.
+Funding acquisition: Acquisition of the financial support for the project leading to this publication.
+Investigation: Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.
+Methodology: Development or design of methodology; creation of models.
+Project administration: Management and coordination responsibility for the research activity planning and execution.
+Resources: Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.
+Software: Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.
+Supervision: Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.
+Validation: Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.
+Visualization: Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.
+Writing - original draft: Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).
+Writing - review & editing: Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages.
+
+
+```
+

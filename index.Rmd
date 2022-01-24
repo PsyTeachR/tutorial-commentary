@@ -1,45 +1,33 @@
 ---
-title: "Additional Resources"
+title: "So you want to write a tutorial?"
+subtitle: "Additional Resources"
 output: 
-  html_document
+  html_document:
+    toc: true
+    toc_float: true
 #    css: style.css
 ---
 
-[Curation sites](#Curation-sites)  
-[Tutorial papers](#Tutorial-papers)  
-[Books](#Books)  
-[Online courses](#MOOC-/-Online-Course)  
-[Video tutorials](#Video-tutorials)  
-[Translations](#Translations)  
-[Clubs](#Clubs)  
-[Blogs](#Blogs)  
-
-***
+This page will collect links and resources related to open-source tutorials in psychology. It's obviously nowhere near a complete list, but aims to highlight some of the tutorials that inspire our group. We will continue to update it as we hear about more great tutorials.
 
 ## Curation sites  
 
 Curation sites are where authors or groups can repost content written by others. For example, creating a collection of tutorials or linking to tutorials to reach wider audiences.  
 
-Framework for Open and Reproducible Research Training (FORRT). (n.d.). _Framework for Open and Reproducible Research Training (FORRT)._ https://forrt.org/  
+* Framework for Open and Reproducible Research Training ([FORRT](https://forrt.org/))  
+    FORRT aim to improve teaching and mentoring practices in Higher Education. They include pages which organise tutorials into topics.  
 
-* FORRT aim to improve teaching and mentoring practices in Higher Education. They include pages which organise tutorials into topics.  
+* [Open Scholarship Knowledge Base](https://www.oercommons.org/hubs/OSKB)  
+    OSKB curates a collection of resources that support open scholarship for researchers and educators. Resources include training materials for early career researchers and tutorials for applying statistical techniques for reproducible science.  
 
-Open Scholarship Knowledge Base. (n.d.). _Open Science Foundation._ https://www.oercommons.org/hubs/OSKB  
+* Rushworth, A. [Posts you might have missed!](https://postsyoumighthavemissed.com/)  
+    Daily reposts of tutorials written for R and Python. They take tutorials other users have written and write short summaries of what they contain.  
 
-* OSKB curates a collection of resources that support open scholarship for researchers and educators. Resources include training materials for early career researchers and tutorials for applying statistical techniques for reproducible science.  
+* UK Reproducibility Network. [Reproducibility Resources](https://www.ukrn.org/resources/)  
+    The UKRN's Resources page curates action plans and primers to guide research organisations and researchers in implementing best practices for open and reproducible science.  
 
-Rushworth, A. (n.d.). _Posts you might have missed!_ https://postsyoumighthavemissed.com/  
-
-* Daily reposts of tutorials written for R and Python. They take tutorials other users have written and write short summaries of what they contain.  
-
-UK Reproducibility Network. (n.d.). _UK Reproducibility Network - Resources._ https://www.ukrn.org/resources/  
-
-* The UKRN's Resources page curates action plans and primers to guide research organisations and researchers in implementing best practices for open and reproducible science.  
-
-McIntyre, K. P. (2021). _Open Stats Lab_
-https://sites.google.com/view/openstatslab/home  
-
-* This site curates lab activities for statistical methods at the undergraduate level. Each activity focuses on a published paper with its data and code.  
+* McIntyre, K. P. (2021). [Open Stats Lab](https://sites.google.com/view/openstatslab/home)  
+    This site curates lab activities for statistical methods at the undergraduate level. Each activity focuses on a published paper with its data and code.  
 
 
 ## Tutorial papers
@@ -47,49 +35,39 @@ Tutorial papers are where authors provide a step-by-step guide on the process an
 
 ### Beginner
 
-Allen, M., Poggiali, D., Whitaker, K., Marshall, T. R., van Langen, J., & Kievit, R. A. (2021). Raincloud plots: a multi-platform tool for robust data visualization [version 2]. Wellcome Open Resources, 4:63. https://doi.org/10.12688/wellcomeopenres.15191.2  
+* Allen, M., Poggiali, D., Whitaker, K., Marshall, T. R., van Langen, J., & Kievit, R. A. (2021). Raincloud plots: a multi-platform tool for robust data visualization [version 2]. Wellcome Open Resources, 4:63. https://doi.org/10.12688/wellcomeopenres.15191.2  
+    The authors introduce tools in R, Python, and Matlab that allow users to visualise data with raincloud plots.  
 
-* The authors introduce tools in R, Python, and Matlab that allow users to visualise data with raincloud plots.  
+* Bartlett, J. E., & Charles, S. J. (2021, December 10). Power to the People: A Beginner’s Tutorial to Power Analysis using jamovi. https://doi.org/10.31234/osf.io/bh8m9  
+    The authors specifically target beginners to power analysis by explaining core concepts and elements of decision making, before walking readers through examples of power analysis.  
 
-Bartlett, J. E., & Charles, S. J. (2021, December 10). Power to the People: A Beginner’s Tutorial to Power Analysis using jamovi. https://doi.org/10.31234/osf.io/bh8m9  
+* Marsman, M., & Wagenmakers, E.-J. (2017). Bayesian benefits with JASP. _European Journal of Developmental Psychology_, 14(5), 545–555. https://doi.org/10.1080/17405629.2016.1259614  
+    The authors explain the rationale behind using Bayesian statistics, before demonstrating different analyses in the free software JASP. Readers can follow along to the analyses by downloading an annotated file on the OSF.  
 
-* The authors specifically target beginners to power analysis by explaining core concepts and elements of decision making, before walking readers through examples of power analysis.  
+* Kathawalla, U.-K., Silverstein, P., & Syed, M. (2021). Easing Into Open Science: A Guide for Graduate Students and Their Advisors. _Collabra: Psychology_, 7(18684). https://doi.org/10.1525/collabra.18684  
+    The authors explain how to incorporate different open science practices into your research pipeline. For each entry, they explain what, why, how, and outline any potential worries.  
 
-Marsman, M., & Wagenmakers, E.-J. (2017). Bayesian benefits with JASP. _European Journal of Developmental Psychology_, 14(5), 545–555. https://doi.org/10.1080/17405629.2016.1259614  
-
-* The authors explain the rationale behind using Bayesian statistics, before demonstrating different analyses in the free software JASP. Readers can follow along to the analyses by downloading an annotated file on the OSF.  
-
-Kathawalla, U.-K., Silverstein, P., & Syed, M. (2021). Easing Into Open Science: A Guide for Graduate Students and Their Advisors. _Collabra: Psychology_, 7(18684). https://doi.org/10.1525/collabra.18684  
-
-* The authors explain how to incorporate different open science practices into your research pipeline. For each entry, they explain what, why, how, and outline any potential worries.  
-
-Nordmann, E., McAleer, P., Toivo, W., Paterson, H., & DeBruine, L. M. (2021, June 21). Data visualisation using R, for researchers who don't use R. https://doi.org/10.31234/osf.io/4huvw  
-
-* Targeting researchers who have little to no prior experience in R, this tutorial introduces basic R setup, data wrangling, and data visualisation.  
+* Nordmann, E., McAleer, P., Toivo, W., Paterson, H., & DeBruine, L. M. (2021, June 21). Data visualisation using R, for researchers who don't use R. https://doi.org/10.31234/osf.io/4huvw  
+    Targeting researchers who have little to no prior experience in R, this tutorial introduces basic R setup, data wrangling, and data visualisation.  
 
 ### Intermediate
 
-Brown, V. A. (2021). An Introduction to Linear Mixed-Effects Modeling in R. _Advances in Methods and Practices in Psychological Science_, 4(1), 2515245920960351. https://doi.org/10.1177/2515245920960351  
+* Brown, V. A. (2021). An Introduction to Linear Mixed-Effects Modeling in R. _Advances in Methods and Practices in Psychological Science_, 4(1), 2515245920960351. https://doi.org/10.1177/2515245920960351  
+    Brown provides an intermediate introduction to linear mixed-effect models in R as the topic is relatively complex, but the focus is on how to analyse data in R rather than the mathematical background. The author provides further reading for those who want to delve into the mathematics. 
 
-* Brown provides an intermediate introduction to linear mixed-effect models in R as the topic is relatively complex, but the focus is on how to analyse data in R rather than the mathematical background. The author provides further reading for those who want to delve into the mathematics. 
+* DeBruine, L. M., & Barr, D. J. (2021). Understanding mixed-effects models through data simulation. _Advances in Methods and Practices in Psychological Science_, 4(1), 251524592096511. https://doi.org/10.1177/2515245920965119  
+    The authors explain how to simulate data with random-effects structure, how to analyse data using linear mixed-effects regression (with the lme4 R package), and how to interpret the output.  
 
-DeBruine, L. M., & Barr, D. J. (2021). Understanding mixed-effects models through data simulation. _Advances in Methods and Practices in Psychological Science_, 4(1), 251524592096511. https://doi.org/10.1177/2515245920965119  
-
-* The authors explain how to simulate data with random-effects structure, how to analyse data using linear mixed-effects regression (with the lme4 R package), and how to interpret the output.  
-
-Lakens, D., Scheel, A. M., & Isager, P. M. (2018). Equivalence Testing for Psychological Research: A Tutorial. _Advances in Methods and Practices in Psychological Science_, 1(2), 259–269. https://doi.org/10.1177/2515245918770963  
-
-* The article focuses on reporting and interpretating equivalence testing applied to psychological research. The authors then provide supplementary material on an OSF page to reproduce their analyses in R.  
+* Lakens, D., Scheel, A. M., & Isager, P. M. (2018). Equivalence Testing for Psychological Research: A Tutorial. _Advances in Methods and Practices in Psychological Science_, 1(2), 259–269. https://doi.org/10.1177/2515245918770963  
+    The article focuses on reporting and interpretating equivalence testing applied to psychological research. The authors then provide supplementary material on an OSF page to reproduce their analyses in R.  
 
 ### Advanced
 
-Bürkner, P-C., & Vuorre, M. (2019). Ordinal Regression Models in Psychology: A Tutorial. _Advances in Methods and Practices in Psychological Science_, 2(1), 77–101. https://doi.org/10.1177/2515245918823199  
+* Bürkner, P-C., & Vuorre, M. (2019). Ordinal Regression Models in Psychology: A Tutorial. _Advances in Methods and Practices in Psychological Science_, 2(1), 77–101. https://doi.org/10.1177/2515245918823199  
+    The authors provide an intermediate to advanced tutorial based on outlining the mathematical concepts behind different applications of ordinal regression. They provide a walkthrough using example data but highlight how you can apply these techniques to your own data.  
 
-* The authors provide an intermediate to advanced tutorial based on outlining the mathematical concepts behind different applications of ordinal regression. They provide a walkthrough using example data but highlight how you can apply these techniques to your own data.  
-
-Dima, A. L. (2018). Scale validation in applied health research: Tutorial for a 6-step R-based psychometrics protocol. _Health Psychology and Behavioral Medicine_, 6(1), 136–161. https://doi.org/10.1080/21642850.2018.1472602  
-
-* The author provides a tutorial of how to use R for scale validation. Readers can download an example data set and script to follow the article. The tutorial is listed as advanced as readers would either need prior understanding of scale validation concepts, or engage in further reading after following the tutorial.  
+* Dima, A. L. (2018). Scale validation in applied health research: Tutorial for a 6-step R-based psychometrics protocol. _Health Psychology and Behavioral Medicine_, 6(1), 136–161. https://doi.org/10.1080/21642850.2018.1472602  
+    The author provides a tutorial of how to use R for scale validation. Readers can download an example data set and script to follow the article. The tutorial is listed as advanced as readers would either need prior understanding of scale validation concepts, or engage in further reading after following the tutorial.  
 
 ## Books
 
@@ -97,73 +75,58 @@ Books are the traditional sources of tutorials where there are longer explanatio
 
 ### Beginner
 
-Navarro, D. (2018, December 31). _Learning Statistics with R._ https://learningstatisticswithr-bookdown.netlify.com/  
+* Navarro, D. (2018, December 31). [Learning Statistics with R](https://learningstatisticswithr-bookdown.netlify.com/)  
+    This book is the curriculum of an introductory statistics course using R. The book covers descriptive statistics, graphing, probability theory, null hypothesis testing, and Bayesian statistics.  
 
-* This book is the curriculum of an introductory statistics course using R. The book covers descriptive statistics, graphing, probability theory, null hypothesis testing, and Bayesian statistics.  
+* McAleer, P. (2022, January 16). [A Handy Workbook for Research Methods & Statistics](https://psyteachr.github.io/handyworkbook/)
+    The book guides the reader through hand calculations of basic statistical tests. Worked examples and self-tests are provided to promote understanding.  
 
-McAleer, P. (2022, January 16). _A Handy Workbook for Research Methods & Statistics._ https://psyteachr.github.io/handyworkbook/  
+* McAleer, P., Kuepper-Tetzel, C., & Paterson, H. (2022, January 21). [PsyTeachR. Year 2 Research Methods and Statistics Practical Skills](https://doi.org/10.5281/zenodo.5101080)  
+    This book is aimed at second year undergraduates, building on prior data wrangling and visualisation skills. The content covers Null Hypothesis Significance Testing and basic statistical tests.  
 
-* The book guides the reader through hand calculations of basic statistical tests. Worked examples and self-tests are provided to promote understanding.  
+* Nordmann, E. & Cleland-Woods, H. (2021, December 10). [PsyTeachR. Level 1 Data Skills](https://doi.org/10.5281/zenodo.3966961)  
+    This book is aimed at first year undergraduates to introduce them to R programming. The book covers basic skills such as loading data, data wrangling, and data visualisation.  
 
-McAleer, P., Kuepper-Tetzel, C., & Paterson, H. (2022, January 21). _PsyTeachR. Year 2 Research Methods and Statistics Practical Skills (1.0.9001)._ https://doi.org/10.5281/zenodo.5101080  
-
-* This book is aimed at second year undergraduates, building on prior data wrangling and visualisation skills. The content covers Null Hypothesis Significance Testing and basic statistical tests.  
-
-Nordmann, E. & Cleland-Woods, H. (2021, December 10). _PsyTeachR. Level 1 Data Skills (0.0.9)._ Zenodo. https://doi.org/10.5281/zenodo.3966961  
-
-* This book is aimed at first year undergraduates to introduce them to R programming. The book covers basic skills such as loading data, data wrangling, and data visualisation.  
-
-Nordmann, E. & McAleer, P. (2022, January 7). _PsyTeachR. Fundamentals of Quantitative Analysis._ https://psyteachr.github.io/quant-fun-v2/  
-
-* This book supports an MSc conversion course, where students with a prior degree complete an accelerated psychology programme. Students learn about content covered in years 1-3 in an undergraduate course, from basic programming in R to multiple regression.  
+* Nordmann, E. & McAleer, P. (2022, January 7). [PsyTeachR. Fundamentals of Quantitative Analysis](https://psyteachr.github.io/quant-fun-v2/)  
+    This book supports an MSc conversion course, where students with a prior degree complete an accelerated psychology programme. Students learn about content covered in years 1-3 in an undergraduate course, from basic programming in R to multiple regression.  
 
 ### Intermediate
 
-Bartlett, J.E. (2021, July 6). _Introduction to Power Analysis: A Guide to G*Power, jamovi, and Superpower_. https://osf.io/zqphw/  
+* Bartlett, J.E. (2021, July 6). [Introduction to Power Analysis: A Guide to G*Power, jamovi, and Superpower](https://osf.io/zqphw/)  
+    The author provides a practical, step-by-step guide to calculating power and effect size using G*Power, jamovi, and the R Superpower package.  
 
-* The author provides a practical, step-by-step guide to calculating power and effect size using G*Power, jamovi, and the R Superpower package.  
+* Barr, D. (2021, November 10). [PsyTeachR. Level 3: Statistical Models](https://psyteachr.github.io/stat-models/)  
+    This book is aimed at third year undergraduates who are now specialising in psychology. The content builds on levels 1 and 2 to cover statistical modelling (e.g., mixed effects models and ordinal regression) and data simulation.  
 
-Barr, D. (2021, November 10). _PsyTeachR. Level 3: Statistical Models._ https://psyteachr.github.io/stat-models-v1/  
+* [BBC Visualisation cookbook](https://bbc.github.io/rcookbook/)     Written for data journalists, this book walks through how to create data visualisations that balance aesthetics, clarity, and information.  
 
-* This book is aimed at third year undergraduates who are now specialising in psychology. The content builds on levels 1 and 2 to cover statistical modelling (e.g., mixed effects models and ordinal regression) and data simulation.  
+* DeBruine, L. & Barr, D. (2021, October 15). [PsyTeachR. Data Skills for Reproducible Research](https://doi.org/10.5281/zenodo.3564555)  
+    This book supports an MSc psychology course, where students have a previous psychology degree but they are learning about more advanced research methods. The material expects a basic understanding of statistical concepts, but no prior knowledge of R programming to focus on reproducible workflows.  
 
-BBC Visualisation cookbook. (2019, January 24). _BBC visualisation cookbook._ https://bbc.github.io/rcookbook/  
+* Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). _A Practical Guide for Transparency in Psychological Science._ Collabra: Psychology, 4(1), 20. https://doi.org/10.1525/collabra.158  
+    This is a guide to transparency practices in various stages of research. Topics covered include preregistration, preprint, and open-source access to scripts and data.  
 
-* Written for data journalists, this book walks through how to create data visualisations that balance aesthetics, clarity, and information.  
-
-Debruine, L. & Barr, D. (2021, October 15). _PsyTeachR. Data Skills for Reproducible Research._ https://doi.org/10.5281/zenodo.3564555  
-
-* This book supports an MSc psychology course, where students have a previous psychology degree but they are learning about more advanced research methods. The material expects a basic understanding of statistical concepts, but no prior knowledge of R programming to focus on reproducible workflows.  
-
-Klein, O., Hardwicke, T. E., Aust, F., Breuer, J., Danielsson, H., Hofelich Mohr, A., IJzerman, H., Nilsonne, G., Vanpaemel, W., & Frank, M. C. (2018). _A Practical Guide for Transparency in Psychological Science._ Collabra: Psychology, 4(1), 20. https://doi.org/10.1525/collabra.158  
-
-* This is a guide to transparency practices in various stages of research. Topics covered include preregistration, preprint, and open-source access to scripts and data.  
-
-Mineault, P. & The Good Research Code Handbook Community. (2021). _The Good Research Code Handbook_. Zenodo. https://doi.org/10.5281/zenodo.5796873    
-<!-- Zenodo link is the official citation, but from the Zenodo page it's difficult to find the actual URL. https://goodresearch.dev/index.html -->
-
-* The authors provide a practical guide on how to apply programming principles to organise workflows that support the researcher's productivity and benefit reproducibility for the broader community.  
+* Mineault, P. & The Good Research Code Handbook Community. (2021). [The Good Research Code Handbook](https://goodresearch.dev/index.html)  ([DOI](https://doi.org/10.5281/zenodo.5796873))
+    The authors provide a practical guide on how to apply programming principles to organise workflows that support the researcher's productivity and benefit reproducibility for the broader community.  
 
 ### Advanced
 
-Rougier, N.P. (2021). Scientific Visualization: Python + Matplotlib. 
-https://github.com/rougier/scientific-visualization-book  
-
-* The author walks through how to use advanced features of Python's Matplotlib library to create 2D and 3D scientific visualizations.  
+* Rougier, N.P. (2021). [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-boo)
+    The author walks through how to use advanced features of Python's Matplotlib library to create 2D and 3D scientific visualizations.  
 
 ## MOOC / Online Course  
 
 A massive open online course (MOOC) or other online courses can be a high-impact way to share your tutorials and curricula with global and diverse communities of researchers and learners. Tutorials in online courses typically combine written and visual information.  
 
 ### Beginner
-Lakens, D. (n.d.). Improving your statistical inferences. Coursera. https://www.coursera.org/learn/statistical-inferences  
 
-* This MOOC focuses on statistical inferences and experimental designs, guiding the learner to prevent problems and participate in open science.  
+* Lakens, D. [Improving your statistical inferences](https://www.coursera.org/learn/statistical-inferences). Coursera.   
+    This MOOC focuses on statistical inferences and experimental designs, guiding the learner to prevent problems and participate in open science.  
 
 ### Intermediate
-McElreath, R. (2022). Statistical rethinking (2022 Edition). https://github.com/rmcelreath/stat_rethinking_2022  
 
-* This popular course focuses on Bayesian statistics and causal inference, encouraging learners to apply and adapt statistical models in their own field of science.  
+* McElreath, R. (2022). [Statistical rethinking](https://github.com/rmcelreath/stat_rethinking_2022 )
+    This popular course focuses on Bayesian statistics and causal inference, encouraging learners to apply and adapt statistical models in their own field of science.  
 
 
 ## Video tutorials
@@ -172,107 +135,83 @@ Video tutorials are a good way to share a curriculum in multimedia formats and l
 
 ### Intermediate
 
-Buchanan, E. (n.d.). Statistics of Doom [Youtube channel]. https://www.youtube.com/c/StatisticsofDOOM  
+* Buchanan, E. [Statistics of Doom](https://www.youtube.com/c/StatisticsofDOOM )
+    This Youtube channel features statistics tutorials in R, Python, JASP, and SPSS.  
 
-* This Youtube channel features statistics tutorials in R, Python, JASP, and SPSS.  
-
-Christiansen, P. (n.d.). Statistics Guides with Dr Paul Christiansen [YouTube channel]. https://www.youtube.com/channel/UCpjsdW-snzkUAx0lvqTJ7WA/featured  
-
-* This YouTube channel features tutorials on using R and SPSS for different analysis techniques.  
+* Christiansen, P. [Statistics Guides with Dr Paul Christiansen](https://www.youtube.com/channel/UCpjsdW-snzkUAx0lvqTJ7WA/featured)   
+    This YouTube channel features tutorials on using R and SPSS for different analysis techniques.  
 
 ## Translations
 
 One important contribution can be translating a tutorial - often written in English - into your first language. This widens access to tutorials as not everyone is fluent in English. Other elements of translation are taking the materials in one tutorial and rewriting it for another programming language or piece of software.  
 
-### Intermediate
-jamovi (n.d.). _Resources by the community_. https://www.jamovi.org/community.html  
-
-* The jamovi team collate a list of resources such as open textbooks and guides, and their translations written by other contributors. This means you can access the quick start guide in languages like Norwegian and Greek.  
+* jamovi [Resources by the community](https://www.jamovi.org/community.html)  
+    The jamovi team collate a list of resources such as open textbooks and guides, and their translations written by other contributors. This means you can access the quick start guide in languages like Norwegian and Greek.  
  
-Kurz, S. (2021, May 6). Doing Bayesian Data Analysis in brms and the tidyverse. https://bookdown.org/content/3686/  
+* Kurz, S. (2021, May 6). [Doing Bayesian Data Analysis in brms and the tidyverse](https://bookdown.org/content/3686/)  
+    Kurz took the popular Bayesian statistics textbook by Kruschke (2015) and translated his code. Instead of relying on JAGS and Stan, he translated the analyses to use the packages from R tidyverse and brms, making the material more accessible to those who prefer these packages.  
 
-* Kurz took the popular Bayesian statistics textbook by Kruschke (2015) and translated his code. Instead of relying on JAGS and Stan, he translated the analyses to use the packages from R tidyverse and brms, making the material more accessible to those who prefer these packages.  
-
-Kurz, S. (2019). Statistical Rethinking with brms, ggplot2, and the tidyverse. https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/  
-
-* Kurz builds upon the popular Bayesian textbook, McElreath (2020), and translated the code into R brms, ggplot and tidyverse.  
+* Kurz, S. (2019). [Statistical Rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/)  
+    Kurz builds upon the popular Bayesian textbook, McElreath (2020), and translated the code into R brms, ggplot and tidyverse.  
 
 ## Clubs
-Clubs provide an informal setting to combine learning with a supportive community for early career researchers. Clubs can facilitate access to best practices in statistics and scientific methods in a more accessible format.  
 
-Coding Club. https://ourcodingclub.github.io/tutorials.html  
+Journal clubs and coding clubs provide an informal setting to combine learning with a supportive community for early career researchers. Clubs can facilitate access to best practices in statistics and scientific methods in a more accessible format.  
 
-* Collection of coding, data science and statistics tutorials with examples in R, Python, JavaScript and Python.  
+* [Coding Club](https://ourcodingclub.github.io/tutorials.html)  
+    Collection of coding, data science and statistics tutorials with examples in R, Python, JavaScript and Python.  
 
-Data Colada. https://datacolada.org/  
+* Data Colada. https://datacolada.org/  
+    Seminar series and blog on working with data.  
 
-* Seminar series and blog on working with data.  
-
-Hack your data beautiful. https://psyteachr.github.io/hack-your-data/  
-
-* Series of short workshops aimed at new users for R on data wrangling, visualisation, and analysis.  
+* [Hack your data beautiful](https://psyteachr.github.io/hack-your-data/)  
+    Series of short workshops aimed at new users for R on data wrangling, visualisation, and analysis.  
 
 ## Blogs
+
 Blogs can be a flexible, dynamic space for publishing a short tutorial for various projects. There is a networking component to blogs, where authors can receive immediate feedback from their audience. What starts as an informal tutorial blog post can often develop into a software package or a publishable paper.  
 
-Bartlett, J. E. (2021, October 6). Learning To Read Scientific Journal Articles. _James E. Bartlett._ https://bartlettje.github.io/2021-10-06-learning-to-read-scientific-journal-articles/  
+* Bartlett, J. E. (2021, October 6). [Learning To Read Scientific Journal Articles](https://bartlettje.github.io/2021-10-06-learning-to-read-scientific-journal-articles/)  
+    The author explains how to use the QALMRI (Question, Alternatives, Logic, Method, Results, and Inferences) method to read journal articles, and provide self-checking exercises.  
 
-* The author explains how to use the QALMRI (Question, Alternatives, Logic, Method, Results, and Inferences) method to read journal articles, and provide self-checking exercises.  
+* Buchanan, E.  [Dr. Erin Buchanan](https://www.aggieerin.com/)  
+    The author shares tutorials on using R packages and techniques to solve problems and build projects, such as building a CV with R Markdown or using R packages for web scraping. The blog also curates resources, including workshop materials and videos.  
 
-Buchanan, E. (n.d.) _Dr. Erin Buchanan._ https://www.aggieerin.com/  
+* DeBruine, L. [Blog Posts](https://debruine.github.io/#posts)  
+    This blog publishes tutorials about using R in various projects, with a focus on explaining the rationale behind each step to help learners build their skills.  
 
-* The author shares tutorials on using R packages and techniques to solve problems and build projects, such as building a CV with R Markdown or using R packages for web scraping. The blog also curates resources, including workshop materials and videos.  
+* Fried, E. [Psych Networks](https://psych-networks.com/)  
+    The author and guests provide R tutorials and informative posts mostly on visualisation and modeling in psychology. 
 
-DeBruine, L. (n.d.). _Lisa Debruine._ https://debruine.github.io/#posts  
+* Kruschke, J. K. [Doing Bayesian Data Analysis](https://doingbayesiandataanalysis.blogspot.co.uk/)  
+    This blog features intermediate-to-advanced tutorials on Bayesian statistics and modeling techniques, using R. 
 
-* This blog publishes tutorials about using R in various projects, with a focus on explaining the rationale behind each step to help learners build their skills.  
+* Lakens, D. [The 20% Statistician](https://daniellakens.blogspot.co.uk/)  
+    The author writes detailed blog posts on how to correctly apply and interpret statistics. Discussions and tutorials shared in the blog posts are often produced into published papers. 
 
-Fried, E. (n.d.). _Psych Networks._ https://psych-networks.com/  
+* Magnusson, K. [R Psychologist](https://rpsychologist.com/)  
+    This blog showcases interactive web apps that visualise statistical concepts and techniques. Magnusson also writes about common issues in statistical modeling and suggests solutions. 
 
-* The author and guests provide R tutorials and informative posts mostly on visualisation and modeling in psychology. 
+* Rousselet, G. [Basic Statistics](https://garstats.wordpress.com/)  
+    This blog features tutorials on intermediate-to-advanced statistical techniques, illustrated with graphs and code examples. 
 
-Kruschke, J. K. (n.d.). _Doing Bayesian Data Analysis._ https://doingbayesiandataanalysis.blogspot.co.uk/  
+* Roye, D. [R visualization of spatial, geographical, and climate data](https://dominicroye.github.io/en/)  
+    The author as a climate scientist writes tutorials on R visualization of geographical data. 
 
-* This blog features intermediate-to-advanced tutorials on Bayesian statistics and modeling techniques, using R. 
+* Scherer, C. [Data Visualization in R, Computational Ecology](https://www.cedricscherer.com/)  
+    The blog focuses on advanced data visualisation that combines aesthetics and statistical knowledge, working with large datasets. 
 
-Lakens, D. (n.d.). _The 20% Statistician._ https://daniellakens.blogspot.co.uk/  
+* Stefan, A. & Schönbrodt, F. (2018, November 14). [Gazing into the Abyss of P-Hacking: HARKing vs. Optional Stopping](https://www.nicebread.de/harking-optionalstopping/)  
+    As a warning to scientists on what *not to do*, this blog post explores the topic of p-hacking by using code to simulate how it could be done. 
 
-* The author writes detailed blog posts on how to correctly apply and interpret statistics. Discussions and tutorials shared in the blog posts are often produced into published papers. 
+* Schönbrodt, F. (2017, June 1). [Correcting bias in meta-analyses: What not to do (meta-showdown Part 1)](https://www.nicebread.de/meta-showdown-1/)  
+    This blog post highlights common pitfalls in meta-analyses and makes recommendations on how to avoid and correct biases. 
 
-Magnusson, K. (n.d.). _R Psychologist._ https://rpsychologist.com/  
+* Sleegers, W. (2021, 23 September). [Simulation-based power analyses](https://www.willemsleegers.com/posts/simulation-based-power-analyses/)  
+    In this post, Sleegers explains how to perform a simulation-based power analysis using R. The author explains the logic behind simulation-based power analysis and covers different designs. 
 
-* This blog showcases interactive web apps that visualise statistical concepts and techniques. Magnusson also writes about common issues in statistical modeling and suggests solutions. 
+* Wood, K. (2018, January 29). [CORVIDS: A provably-complete data reconstruction tool](https://katherinemwood.github.io/post/corvids/)  
+    This blog post introduces a data reconstruction tool that can reconstruct the distribution of Likert-scale data from its summary statistics.  
 
-Rousselet, G. (n.d.). _Basic Statistics._ https://garstats.wordpress.com/  
-
-* This blog features tutorials on intermediate-to-advanced statistical techniques, illustrated with graphs and code examples. 
-
-Roye, D. (n.d.). _R visualization of spatial, geographical, and climate data._ https://dominicroye.github.io/en/  
-
-* The author as a climate scientist writes tutorials on R visualization of geographical data. 
-
-Scherer, C. (n.d.). _Data Visualization in R, Computational Ecology._ https://www.cedricscherer.com/  
-
-* The blog focuses on advanced data visualisation that combines aesthetics and statistical knowledge, working with large datasets. 
-
-Stefan, A. & Schönbrodt, F. (2018, November 14). Gazing into the Abyss of P-Hacking: HARKing vs. Optional Stopping. _Felix Schönbrodt._ https://www.nicebread.de/harking-optionalstopping/  
-
-* As a warning to scientists on what *not to do*, this blog post explores the topic of p-hacking by using code to simulate how it could be done. 
-
-Schönbrodt, F. (2017, June 1). Correcting bias in meta-analyses: What not to do (meta-showdown Part 1). _Felix Schönbrodt._ https://www.nicebread.de/meta-showdown-1/  
-
-* This blog post highlights common pitfalls in meta-analyses and makes recommendations on how to avoid and correct biases. 
-
-Sleegers, W. (2021, 23 September). Simulation-based power analyses. _Willem Sleegers._ https://www.willemsleegers.com/posts/simulation-based-power-analyses/  
-
-* In this post, Sleegers explains how to perform a simulation-based power analysis using R. The author explains the logic behind simulation-based power analysis and covers different designs. 
-
-Wood, K. (2018, January 29). CORVIDS: A provably-complete data reconstruction tool. _Katherine Wood._
-https://katherinemwood.github.io/post/corvids/  
-
-* This blog post introduces a data reconstruction tool that can reconstruct the distribution of Likert-scale data from its summary statistics.  
-
-Wood, K. (2017, October 9). Pre-screen MTurk workers with custom qualifications. _Katherine Wood._
-https://katherinemwood.github.io/post/qualifications/  
-
-* This blog post targets researchers using MTurk and guides them on pre-screening MTurk workers by qualifications (using Python boto3). 
+* Wood, K. (2017, October 9). [Pre-screen MTurk workers with custom qualifications](https://katherinemwood.github.io/post/qualifications/)  
+    This blog post targets researchers using MTurk and guides them on pre-screening MTurk workers by qualifications (using Python boto3). 

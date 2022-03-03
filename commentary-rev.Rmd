@@ -1,0 +1,94 @@
+---
+title: "Creating open-source tutorials to benefit the field"
+author: "PsyTeachR Team†<br>†email: Lisa.DeBruine@glasgow.ac.uk"
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+classoption:
+- twocolumn
+bibliography: biblio.bib
+csl: nature.csl
+---
+
+**Open research requires many new skills, which are increasingly required by journals and funders. Creating open-source tutorials is both useful to the field and personally rewarding, but these efforts must be credited accordingly.**
+
+Researchers need to constantly update their skills, a challenge that has become especially important for research transparency  [@nosek2015promoting]. For example, data simulations enable preregistering planned data analysis, which helps counter HARKing and p-hacking [@morling2020psychology], while also allowing for a priori power analysis to plan for adequate sample sizes [@lakens2021simulation]. Similarly, developing reproducible code and sharing datasets enables verification and error detection, facilitates contributions to meta-analyses, and informs future replications and secondary data analysis [@obels2020analysis].
+
+A lack of resources for learning these skills is a major barrier to open research, as many open research skills are not taught on undergraduate or postgraduate courses [@zevcevic2020exploring]. This means researchers must often learn skills independently of their training.  To address this barrier, researchers create open tutorials to teach users new skills. These tutorials might cover introductory topics such as the decisions that go into performing a power analysis, or more advanced topics such as how to simulate data for a linear mixed effects model. Both types of tutorial address barriers, but they are aimed at different audiences.
+
+Writing tutorials allows researchers to have a positive impact on the field that can also be personally deeply rewarding. While it's rare to get a thank-you note for a research paper, it's much more common to get heartfelt messages of thanks for writing a tutorial. You can see how your work has a direct effect on the research community.
+
+However, creating a useful tutorial takes time and experience, and they must therefore be credited accordingly. Here, we share our advice on how to create an effective and useful tutorial ([Box 1](#box1)), describe the importance of making tutorials accessible and how this can be achieved, and advocate for greater recognition of these efforts.
+
+## Make tutorials accessible
+
+Tutorials only fulfil their mission to serve the field and promote open research if they are themselves open-source and accessible. While most academics have created learning materials for their courses or research group, there are a few additional steps to making sure your tutorials reach as wide an audience as possible to spread good practice. In order to combat widespread inequity due to language and resource barriers, open licenses allow reuse of materials as FAIR-ly as possible [@wilkinson2016fair]. 
+
+In academia, the traditional route for disseminating knowledge is through journal publications. Although methods journals will publish tutorial-style articles, this process can be slow, articles are often paywalled, and the static article format is not always pedagogically ideal. We therefore recommend self-publishing before or instead of submitting to a journal. Self-publishing allows you to share materials immediately and freely, as well as allowing for more interactive formats. For example, a technical tutorial can often be easiest to understand as a numbered list of tasks with frequent links to resources for further information, but journal articles tend to emphasise narrative paragraphs and academic citations. Self-publishing can also give you the opportunity to get feedback from learners and refine your tutorial. For example, Nordmann and colleagues [@nordmann2022] included a link to a feedback form on their first preprint. The feedback received from early tutorial users was then used to refine the tutorial before submitting for publication.
+
+Many researchers self-publish by posting tutorials on a personal website or blog, but there are advantages to archiving a copy on a free, reliable platform. This provides a stable address that will persist even if you change your website or leave academia. Code-based tutorials are often hosted on [GitHub](https://github.com), where you can archive code and other materials, as well as host a website. Other options include the [Open Science Framework](https://osf.io/) and [Zenodo](https://zenodo.org/), which have the benefit of giving your tutorial a DOI These platforms all allow you to archive multiple versions, which can be important if the tutorial covers software that may be updated. 
+
+While these archives can host your content, they tend to be difficult to search, so people will generally only find your tutorials if you advertise them directly, such as through social media. Tutorials can be submitted to curation lists like the [Open Scholarship Knowledge Base](https://www.oercommons.org/hubs/OSKB) or [FORRT](https://forrt.org/), which are more searchable and target specific audiences searching for tutorials. 
+
+Distribution format also has implications for accessibility. PDFs might look pretty, but they are difficult to adapt and are not compatible with translation and screen reading tools (for example, copying code or text is often impossible), which make your materials accessible to people who require other languages or who have impaired vision. It is therefore preferable to write tutorials in an open format, such as html. You can do this by creating tutorials as a blog post using blogging software, or, ironically, you can use Daniel Quintana's outstanding [tutorial on making a free personal academic website](https://www.dsquintana.blog/create-an-academic-website-free-easy-2020/).
+
+Finally, giving tutorials an [open source license](https://choosealicense.com/) promotes even greater accessibility by encouraging sharing and reuse. For example, the PsyTeachR book series written by our group are all published under a Creative Commons [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, which allows others to copy, redistribute, remix, and transform the material, as long as the original source is cited and derivatives use the same license. This has enabled our books to be translated into [French](https://corelab.blog/354/) and [Chinese](https://rstat-project.github.io/), thereby expanding the reach of our original English materials. This can also allow for customization for a new topic, such as keeping the core technical explanations and replacing the examples with data more relevant to economists or neuroscientists. 
+
+To showcase tutorials in different mediums and aimed at different audiences, we have curated a non-exhaustive list of tutorials we are aware of. The [supplementary information](https://psyteachr.github.io/tutorial-commentary/) links to a webpage we created, organised into sections such as articles, blogs, and translations, and ranked where appropriate for beginners to advanced users. 
+## Give and receive credit for tutorials
+
+Providing useful learning materials is a great way to gain visibility and reputation in your field by getting your name out in the field in a positive way, but it can be challenging to evidence their impact. 
+
+There are several ways to track tutorial engagement and use using web analytics. Materials hosted on a platform like YouTube or a preprint server will automatically track engagement. If materials are advertised with a link to the DOI, metrics platforms can track their use in publications and social media. Detailed Google analytics can be obtained by adding a few lines of javascript to any webpage. 
+
+However, tracking engagement and use does not by itself ensure tutorial writers are appropriately credited. Although tutorials for advanced statistical methods can be highly cited, especially when they are published in methods journals, tutorials that explain the fundamentals of a technique are seldom cited, despite arguably having a larger impact on research and teaching. For example, established researchers using tutorials to transition to coding to increase the transparency in their analyses may use boilerplate code from a tutorial, but not cite the original source because the analysis method has not changed, only the tool that they used to carry it out.
+
+Despite their potential for better learning, citing websites, videos or online tools is not yet standard practice, so an important step to receiving credit is to ensure that it is easy for people to find and use a standard citation for the tutorial. Tutorial writers should obtain a DOI through a service like the OSF or Zenodo and highlight the full citation prominently. Most preprint services allow the DOI of a published version to be registered in the future so that citations can be amalgamated. 
+
+More broadly, beyond citations, there remains a lack of recognition for creating tutorials and their impact. To ensure that researchers continue to improve the field through sharing good practice and cutting-edge techniques, grant agencies should fund the development of open-source learning materials. To recognize the skill and work required to create tutorials, tenure and promotion committees should consider these on equal standing to empirical research, while acknowledging that the metrics that evidence their impact will not look like those for more traditional publications.
+
+## Outlook
+
+Here we have described how aspiring tutorial writers can create the best materials they can, that provide maximum benefit to the field and tutorial writers themselves. However, there are several steps the field at large must take to support these efforts. Researchers and tutorial users can make sure to cite any tutorials that have influenced their research, even if the materials are not journal articles or the topics are more general than advanced methods. Journals can help by explicitly encouraging the citation of all relevant materials and eliminating citation limits for methods sections. Methods journals can also create more innovative article formats so that tutorial writers don't have to choose between the pedagogical and accessibility advantages of interactive online formats versus the prestige and reach of journal articles. Most importantly, hiring and tenure committees, as well as funders, should recognise the expertise, effort, and altruism involved in producing high-quality tutorials and recognise that they may not have the traditional evidence of citations in journal articles. A good tutorial can take as long as a research paper or book to write, reflect decades of experience, and have an enormous positive impact on the field.
+
+<div style="border: 2px solid black; border-radius: 1em; padding: 0 1em">
+
+## Box 1. Tips for Creating a Tutorial {#box1}
+
+Before writing a tutorial, it's important to think about your audience and what problems they have that your tutorial will solve. Prior knowledge plays a key role in learning and has been shown to predict success in MOOCs (massive open online courses) [@kennedy2015predicting]. Consider what skills learners will require to understand your tutorial, such as competence at a particular programming language or statistical procedure. State prerequisites upfront and be clear about the time commitment. For instance, retraining to use R for statistics requires a non-trivial time investment -- in our experience, it takes about three full days to gain introductory skills.
+
+Acquiring new knowledge is easier when it's directly related to prior experience, so consider examples that will resonate with your intended audience. Although it can be easier to discuss a hypothetical study of the effect of factor A on outcome B, concrete example-based learning is a more beneficial approach [@gog2019learning]. Work through a few realistic examples or provide exercises for the learners [@renkl2010learning]. For instance, Richard McElreath's [tutorials on Bayesian inference](https://github.com/rmcelreath/stat_rethinking_2022) use examples from ecology and anthropology to allow learners to practice making realistic inference, whilst the [Open Stats Lab](https://sites.google.com/view/openstatslab/) uses open datasets from papers published in *Psychological Science* to support lessons on introductory statistical concepts.
+
+The strategic use of multimedia principles can be leveraged to promote better learning [@mayer1998cognitive]. For example, the multiple representation principle suggests adding illustrations and pictures to verbal explanations makes it easier to understand because images engage different representations of the same idea. The coherence principle recommends succinctness -- it is easier to understand concepts explained in fewer words. 
+
+A good tutorial keeps users interested and engaged. This can be achieved by adding interactive elements such as [self-checking quizzes](https://psyteachr.github.io/webexercises/) or [web apps for demonstrations](https://rpsychologist.com/viz). Video embedded within text tutorials are an engaging way to talk learners through the material. For example, Erin Buchanan's [Statistics of DOOM](https://www.youtube.com/c/StatisticsofDOOM) YouTube channel includes video walk-throughs of statistical techniques that have earned hundreds of thousands of views.
+
+</div>
+
+
+
+
+
+ 
+
+
+
+## References
+
+<div id="refs"></div>
+
+## Competing interests
+
+The authors declare no competing interests.
+
+## Supplementary information
+
+Supplementary information is available for this paper at https://psyteachr.github.io/tutorial-commentary/.
+
+
+## PsyTeachR
+
+Freda Wan$^1$, Wilhelmiina Toivo$^1$, Helena Paterson$^1$, Emily Nordmann$^1$, Phil McAleer$^1$, Kalliopi Mavromati$^1$, Rebecca Lai$^1$, Carolina Kuepper-Tetzel$^1$, Lisa DeBruine$^1$, James Bartlett$^1$, and Dale Barr$^1$
+
+$^1$ School of Psychology and Neuroscience, University of Glasgow, Glasgow, Scotland

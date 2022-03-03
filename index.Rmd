@@ -145,13 +145,15 @@ Video tutorials are a good way to share a curriculum in multimedia formats and l
 
 One important contribution can be translating a tutorial - often written in English - into your first language. This widens access to tutorials as not everyone is fluent in English. Other elements of translation are taking the materials in one tutorial and rewriting it for another programming language or piece of software.  
 
+### Intermediate
+
 * jamovi [Resources by the community](https://www.jamovi.org/community.html)  
     The jamovi team collate a list of resources such as open textbooks and guides, and their translations written by other contributors. This means you can access the quick start guide in languages like Norwegian and Greek.  
  
 * Kurz, S. (2021, May 6). [Doing Bayesian Data Analysis in brms and the tidyverse](https://bookdown.org/content/3686/)  
     Kurz took the popular Bayesian statistics textbook by Kruschke (2015) and translated his code. Instead of relying on JAGS and Stan, he translated the analyses to use the packages from R tidyverse and brms, making the material more accessible to those who prefer these packages.  
 
-* Kurz, S. (2019). [Statistical Rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/)  
+Kurz, S. (2019). [Statistical Rethinking with brms, ggplot2, and the tidyverse](https://bookdown.org/ajkurz/Statistical_Rethinking_recoded/)  
     Kurz builds upon the popular Bayesian textbook, McElreath (2020), and translated the code into R brms, ggplot and tidyverse.  
 
 ## Clubs

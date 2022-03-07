@@ -140,6 +140,7 @@ Video tutorials are a good way to share a curriculum in multimedia formats and l
 
 * Christiansen, P. [Statistics Guides with Dr Paul Christiansen](https://www.youtube.com/channel/UCpjsdW-snzkUAx0lvqTJ7WA/featured)   
     This YouTube channel features tutorials on using R and SPSS for different analysis techniques.  
+    
 
 ## Translations
 
@@ -178,6 +179,9 @@ Blogs can be a flexible, dynamic space for publishing a short tutorial for vario
 
 * Buchanan, E.  [Dr. Erin Buchanan](https://www.aggieerin.com/)  
     The author shares tutorials on using R packages and techniques to solve problems and build projects, such as building a CV with R Markdown or using R packages for web scraping. The blog also curates resources, including workshop materials and videos.  
+    
+* Choe, J. [June Choe](https://yjunechoe.github.io/blog.html)
+    Tutorials about improving explanatory data viz in academic research and other topics related to R and stats. 
 
 * DeBruine, L. [Blog Posts](https://debruine.github.io/#posts)  
     This blog publishes tutorials about using R in various projects, with a focus on explaining the rationale behind each step to help learners build their skills.  
@@ -193,6 +197,9 @@ Blogs can be a flexible, dynamic space for publishing a short tutorial for vario
 
 * Magnusson, K. [R Psychologist](https://rpsychologist.com/)  
     This blog showcases interactive web apps that visualise statistical concepts and techniques. Magnusson also writes about common issues in statistical modeling and suggests solutions. 
+
+* Quintana, D. [dsquintana.blog](https://www.dsquintana.blog/)
+    Tutorials on ways to evaluate and improve scientific practices, featuring excellent interactive visuals.
 
 * Rousselet, G. [Basic Statistics](https://garstats.wordpress.com/)  
     This blog features tutorials on intermediate-to-advanced statistical techniques, illustrated with graphs and code examples. 
